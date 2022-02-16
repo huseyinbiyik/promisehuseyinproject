@@ -1,0 +1,32 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header img {
+    width: 100px;
+}
+
+#header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+#video{
+    text-align: center;
+}
