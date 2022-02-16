@@ -25,14 +25,20 @@
       </ul>
     </nav>
   </div>
-  <div id="video">
-    <iframe width="900" height="538" src="https://www.youtube.com/embed/C0BNuVyjSQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div id="videocontainer">
+    <iframe id="video" width="900" height="538" src="https://www.youtube.com/embed/C0BNuVyjSQA"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
   </div>
-  <form id="form" action="/#" method="get">
-    <label  for="email">email address:</label>
-    <input id="email" type="email" name="fname">
-    <input id="Submit" type="submit" value="Submit">
+  <form id="form" action="https://www.freecodecamp.org/email-submit" method="get">
+    <label for="email">E-mail address:</label>
+    <input id="email" type="email" placeholder="hello@hello.com" name="email">
+    <input id="submit" type="submit" value="Submit" name="email">
   </form>
+  <div id="acoustics"></div>
+  <div id="electric"></div>
+  <div id="basses"></div>
 
   <script src="js/index.js"></script>
 </body>

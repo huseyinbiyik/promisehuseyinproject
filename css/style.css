@@ -1,6 +1,8 @@
 #header {
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 
 #header img {
@@ -27,6 +29,18 @@
     text-decoration: none;
     color: red;
 }
-#video{
+#videocontainer{
+    text-align: center;
+    padding-top: 120px;
+}
+
+form{
+    margin-top: 50px;
     text-align: center;
 }
+
+@media screen and (max-width: 992px) {
+    #video{
+        width: 100%;
+    }
+  }
